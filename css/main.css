@@ -3,26 +3,65 @@ div {
 	height: 200px;
 	margin: 0px;
 	padding: 0px;
-	border: 2px solid yellow;
+	
 }
 
 .red {
-	background: red;
-	position: absolute;
+	background: #FF0040;
+	position: static;
 	width: 400px;
 	height: 400px;
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .blue {
-	background: blue;
-	position: relative;
-	left: 100px;
-	top: 100px;	
+	background: #084B8A;
+	position: absolute;
+	-webkit-transform: rotate(45deg) skew(15deg, 15deg);
+     -moz-transform: rotate(45deg) skew(15deg, 15deg);
+     -ms-transform: rotate(45deg) skew(15deg, 15deg);
+     -o-transform: rotate(45deg) skew(15deg, 15deg);
+     transform: rotate(45deg) skew(15deg, 15deg);
 }
 
 .green {
-	background: green;
+	background: #00FFBF;
 	position: relative;
 	width: 100px;
 	height: 100px;
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.yellow {
+	background: #F7FE2E;
+	height: 0px;
+	width: 0px;
+	top: 500px;
+	position: absolute;
+	border-right: 50px solid transparent;
+     border-top: 50px solid #5cb85c;
+     border-left: 50px solid #5cb85c;
+     border-bottom: 50px solid #5cb85c;
+     -moz-border-radius: 100%;
+     -webkit-border-radius: 100%;
+     border-radius: 100%;
+}
+.black {
+	background: black;
+	width: 10px;
+     height: 10px;
+     top: 435px;
+     position: static;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+
 }
