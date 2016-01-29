@@ -8,22 +8,21 @@ div {
 
 .red {
 	background: red;
-	position: relative;
+	position: absolute;
 	width: 400px;
 	height: 400px;
 }
 
 .blue {
 	background: blue;
-	position: absolute;
+	position: relative;
 	left: 100px;
-	top: 100px;
-	
+	top: 100px;	
 }
 
 .green {
 	background: green;
-	position: static;
+	position: relative;
 	width: 100px;
 	height: 100px;
 }
